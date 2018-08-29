@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["solve",""],["wrap",""],["wrap_ref",""]],"trait":[["Var",""]],"type":[["Wrap",""]]});

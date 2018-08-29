@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Point2",""],["Point3",""],["Point4",""]]});
