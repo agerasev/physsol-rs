@@ -3,7 +3,7 @@
 
 Lightweight 2d and 3d physics library written in Rust
 
-## [Documentation](https://nthend.github.io/physsol-rs/target/doc/vecmat/)
+## [Documentation](https://nthend.github.io/physsol-rs/target/doc/physsol/)
 
 ## Algorithms
 Numerical solution of differential equations:
