@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["euler",""],["mat",""],["point",""],["rk4",""],["vec",""]]});
+initSidebarItems({"mod":[["euler",""],["map",""],["mat",""],["point",""],["rk4",""],["vec",""]]});
