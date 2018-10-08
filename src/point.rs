@@ -1,4 +1,4 @@
-use num::{Float};
+use num_traits::{Float};
 use vec::*;
 use euler::{Wrap as EulerWrap, Var as EulerVar};
 use rk4::{Wrap as RK4Wrap, Var as RK4Var};

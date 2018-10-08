@@ -1,4 +1,4 @@
-use num::{Float};
+use num_traits::{Float};
 use vec::*;
 
 pub type Wrap<V> = (V, V, V, V);
@@ -59,10 +59,10 @@ macro_rules! var_vec {
             fn step(&mut self, dt: T, f: fn(&mut Wrap<&mut T>, T)) {
                 for i in 0..$N {
                     unsafe { (
-                        self.0.d.get_unchecked_mut(i),
-                        self.1.d.get_unchecked_mut(i),
-                        self.2.d.get_unchecked_mut(i),
-                        self.3.d.get_unchecked_mut(i),
+                        self.0.data.get_unchecked_mut(i),
+                        self.1.data.get_unchecked_mut(i),
+                        self.2.data.get_unchecked_mut(i),
+                        self.3.data.get_unchecked_mut(i),
                     ).step(dt, f) }
                 }
             }

@@ -1,3 +1,4 @@
+extern crate num_traits;
 extern crate vecmat;
 
 pub mod euler;
